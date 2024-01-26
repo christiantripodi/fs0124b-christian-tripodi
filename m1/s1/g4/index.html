@@ -3,37 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./assets/css/style.css">
+
 <title>epicode</title>
 </head>
 <body>
   <div .container>
   <header>
-    
-    <img src="./assets/img/logo.svg" alt="logo epicode">
+    <div>
+    <img 
+    src="./assets/img/logo.svg" 
+    alt="logo epicode" 
+    width="250"
+    height="60px">
 
-    <p id="headersottotitolo">epicode . il blog dei developers</p>
-
+    <p id="headersottotitolo">epicode - il blog dei developers</p>
+  </div>
+  <nav>
     <ul>
       <li><i class="fas fa-arrow-right"></i><a href="#"> home </a><i class="fas fa-arrow-left"></i></li>
       <li><i class="fas fa-arrow-right"></i><a href="#"> articoli </a><i class="fas fa-arrow-left"></i></li>
       <li><i class="fas fa-arrow-right"></i><a href="#"> lavora con noi </a><i class="fas fa-arrow-left"></i></li>
     </ul>
-
+  </nav>
   </header>
 
   <main>
 
       <article>
-        <h1 id="h11">Come creare un template per i post</h1>
+        <h1>Come creare un template per i post</h1>
 
-          <p id="autoredata">di Mario Rossi - pubblicato il 25-10-2020</p>
+          <p>di Mario Rossi - <span>pubblicato il 25-10-2020</span></p>
 
-          <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le <span> parti comuni </span>da applicare a tutte le pagine</p>
+          <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le <strong> parti comuni </strong>da applicare a tutte le pagine</p>
 
           <p>Le varie aree saranno quindi suddivise in:</p>
 
@@ -43,7 +50,9 @@
             <li>Contenuti di fine pagina comuni, da inserire nel tag <code>&lt;footer&gt;</code></li>
           </ul>
 
-          <p>Formattazione del codice Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da <span>selezionare con i CSS</span>. Perciò i passi saranno:</p>
+          <h2>Formattazione del codice</h2>
+          
+          <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da <srong>selezionare con i CSS</srong>. Perciò i passi saranno:</p>
 
           <ol>
             <li>Progettare su carta il markup finale, assegnando ad ogni specifico testo il tag appropriato</li>
@@ -53,27 +62,50 @@
 
           <p>Lapplicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.</p>
 
-<section>
           <table>
             <caption>
             <p>Diffusione dei CSS</p>
             </caption>
             <thead>
-            <tr><th>Anno</th><th>% di Utilizzo</th><th>Supporto Browsers</th></tr>
+              <tr>
+                <th>Anno</th>
+                <th>% di utilizzo</th>
+                <th>Supporto browsers</th>
+              </tr>
             </thead>
-            
-            <tr><td>2000</td><td>20%</td><td>17%</td></tr>
-            <tr><td>2002</td><td>35%</td><td>22%</td></tr>
-            <tr><td>2004</td><td>45%</td><td>42%</td></tr>
-            <tr><td>2008</td><td>80%</td><td>51%</td></tr>
-            <tr><td>2012</td><td>100%</td><td>76%</td></tr>
+            <tbody>
+              <tr>
+                <td>2000</td>
+                <td>20&percnt;</td>
+                <td>17&percnt;</td>
+              </tr>
+              <tr>
+                <td>2002</td>
+                <td>35&percnt;</td>
+                <td>22&percnt;</td>
+              </tr>
+              <tr>
+                <td>2004</td>
+                <td>45&percnt;</td>
+                <td>42&percnt;</td>
+              </tr>
+              <tr>
+                <td>2008</td>
+                <td>80&percnt;</td>
+                <td>51&percnt;</td>
+              </tr>
+              <tr>
+                <td>2012</td>
+                <td>100&percnt;</td>
+                <td>76&percnt;</td>
+              </tr>
             </tbody>
-            </table>
+          </table>
       
             <hr>
 
          
-          </section>
+        
 
 
       </article>
@@ -87,44 +119,44 @@
           <h2>novità</h2>
           <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
           <form>
-            <input type="text">
-            <input type="button">
+            <input type="text" placeholder="la tua e-mail">
+            <button type="button" form="form" value="submit">Submit</button>
           </form>
 
         </div>
 
       </aside>
 
-      <div id="correlati">
+      
 
-        <div class="correlati3">
+        
         <h2>Articoli correlati</h2>
-        <p class="titolocorrelati>"><a href="#"></a>Validare il codice HTML</p>
+        <p><a href="#"></a>Validare il codice HTML</p>
         <p class="categoriacorrelati">Categoria: develop</p>
         <p class="datacorrelati">Data: 18-9-2020</p>
       </div>
 
       <div class="correlati3">
         <h2>Articoli correlati</h2>
-        <p class="titolocorrelati>"><a href="#"></a>Correggere Sintassi</p>
+        <p><a href="#"></a>Correggere Sintassi</p>
         <p class="categoriacorrelati">Categoria: develop</p>
         <p class="datacorrelati">Data: 16-9-2020</p>
       </div>
 
       <div class="correlati3">      
         <h2>Articoli correlati</h2>
-        <p class="titolocorrelati>"><a href="#"></a>Meno Kb nella pagina</p>
+        <p><a href="#"></a>Meno Kb nella pagina</p>
         <p class="categoriacorrelati">Categoria: ottimizazione</p>
         <p class="datacorrelati">Data: 30-9-2020</p>
-      </div>
-
-      </div>
+      
 
       <footer>
-<p class="footer">Blog epicode</p>
-<p class="footer">Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano.
+<p class="footer">Blog epicode &copy;2024</p>
+<address>online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano.
   P.IVA 00112233. <a href="mailto:info@epicode.school">info@epicode.school</a></p>
-      </footer>
+</address>       
+
+</footer>
 
   </main>
 </div>

@@ -1,0 +1,319 @@
+
+/* IMPOSTAZIONI GENERALI */
+
+body{
+    background-color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+}
+
+#container {
+    background-color: white;
+}
+
+/* header   */
+
+
+a {
+    color: #25a2c3;
+    text-decoration: none;
+    
+}
+
+
+header {
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+}
+
+header img {
+    padding: 60px;
+}
+
+#primo h1 {
+    font-weight: bold;
+    font-size: 35px;
+    padding-bottom: 45px;
+    font-family: font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+/* MAIN */
+
+main {
+    
+    background-color: white;
+}
+
+h1 {
+    color: #25a2c3;
+    font-size: 35px;
+}
+
+
+h3 {
+    font-size: larger;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#primo {
+    padding-top: 45px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-weight: 100;
+    
+
+}
+
+#partiamo {
+    text-align: center;
+    
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ED4F2B;
+    border: none;
+    border-radius: 10px;
+    width: 120px;
+    padding: 0.6em;
+    font-family: "montserrat";
+    font-size: 12px;
+
+
+
+    border: none;
+    border border-radius: display: 25%;
+}
+
+#partiamo>a {
+    text-decoration: none;   
+    color: white; 
+}
+
+
+h2 {
+    color: #25a2c3;
+    text-align: center;
+    
+
+
+}
+
+#dsk {
+    text-align: left;
+    padding-left: 15%;
+    
+}
+
+#dsk>h2 {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+
+#dsk>p {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+section{
+    text-align: left;
+}
+
+#macbook {
+    display:inline-block ;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 10% ;
+    margin-right: auto;
+    padding: auto 15:0;
+    height: 18em;
+    width: 18em;
+    border-radius: 50%;
+    text-align: center;
+    background-image: url(../images/foto1.jpg);
+    background-size: cover;
+}
+
+
+#desktop {
+display: inline-block;
+   text-align: center;
+}
+
+
+
+#desktop>h2 {
+    padding-top: 25px;
+    text-align: left;
+}
+
+#desktop>p {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 25px;
+}
+
+
+
+
+#epicode {
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    background-color: #DC4B2D;
+    
+}
+
+#epi {
+
+    color: white;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+#cite{
+
+    margin-top: 35px;
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+#ceo {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+
+/*  aside  */
+
+
+.quadrati {
+    display: inline-block; 
+    width: calc(30%);
+    margin-left: 30px;
+    margin-right: auto;
+
+    text-align: center;
+    border: solid 1px #DCDCDC;
+}
+
+.quadrati>h2 {
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #25a2c3;
+    
+}
+
+.quadrati>p {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 55px;
+}
+
+.quadrati>a:active {
+    color: #25a2c3;
+}
+
+
+
+#img1 {
+   
+   
+    height: 300px;
+    width: 100;
+    background-image: url(../images/foto1.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#img2 {
+   
+   
+    height: 300px;
+    width: 100%;
+    background-image: url(../images/foto2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#img3 {
+   
+  
+    height: 300px;
+    width: 100%;
+    background-image: url(../images/foto3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* footer    */ 
+
+footer {
+    margin-top: 30px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+footer>h2 {
+
+    font-size: 50px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+footer {
+    color: white;
+    background-color: #25a2c3;
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+
+footer>p:last-of-type {
+    margin-top: 15px;
+    
+}
+
+
+
+hr {
+
+    margin-top: 15px;
+    width: 50%;
+    color: white;
+}
+
+li {
+    margin: 11px 0;
+}
+
+li>a {
+    color: white;
+}
+
+#footer>a {
+    color: white;
+}
