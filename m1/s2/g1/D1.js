@@ -63,19 +63,13 @@ Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome
 Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
-/*
-const  myName = 'Christian'; 
-console.log(myname)
 
-
-const esercizio5 = {
   myName2 : 'Tripodi';
 
-}
 
 esercizio5.myName = 'Tripodi';
 console.log(esercizio5.myName2);
-*/
+
 
 
 /*
