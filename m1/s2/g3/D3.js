@@ -186,11 +186,6 @@ console.log(femaleCharacters);
 
 
 
-
-  
-
-
-
 /* ESERCIZIO 6
   Usa un while loop per calcolare la massa totale dell'equipaggio. Salvala in una variabile chiamata "crewMass".
 */
@@ -212,8 +207,6 @@ console.log(femaleCharacters);
 
   */
 
-
- 
 
 
 
