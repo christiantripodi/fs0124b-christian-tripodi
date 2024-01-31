@@ -99,11 +99,12 @@ if(x === 8 || y === 8 || (x + y) === 8 || (x - y) === 8 || (y -x) === 8  ){
 {
 
 let totalShoppingCart = 80;
+
 let totaleDaPagare = totalShoppingCart;
 let costospedizione = 10;
 
 if(totalShoppingCart <50){
-  totaleDaPagare += costoSpedizione
+  totaleDaPagare += costospedizione
 
 }
 console.log(totaleDaPagare)
