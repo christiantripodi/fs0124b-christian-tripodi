@@ -141,9 +141,10 @@ console.log(charactersNames);
 
 const femaleCharacters = [];
 
-for(let i = 0; i < starWarsCharacters.length; i++){
+for(let i = 0; i < starWarsCharacters.length; i++)
 
-  femaleCharacters.push(starWarsCharacters[i].gender)
+  if(starWarsCharacters[i].gender === 'female'){
+  femaleCharacters.push(starWarsCharacters[i])
 
 }
 
@@ -167,7 +168,7 @@ console.log(femaleCharacters);
     yellow:[],
     brown:[],
     red:[],
-    blue_gray:[],
+    "blue-gray":[],
     
   }
   
@@ -183,6 +184,41 @@ console.log(femaleCharacters);
   Utilizza uno switch statement per inserire uno ad uno gli oggetti dei personaggi di "starWarsCharacters" negli array relativi al colore degli occhi precedentemente creati.
   Ogni personaggio dovrà finire nell'array corrispondente al suo colore degli occhi (al valore della sua proprietà "eye_color").
 */
+
+
+
+for(let i = 0; i < starWarsCharacters.length; i++) {
+
+switch(starWarsCharacters[i].eye_Color) {
+
+case 'blue':
+    eyeColor.blue.push(starWarsCharacters[i]);
+
+case 'yellow':
+
+
+case 'brown':
+case 'red':
+         case 'blue-gray'
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -206,13 +242,6 @@ console.log(femaleCharacters);
   Una volta fatto, modifica la massa di qualche elemento dell'equipaggio e vedi se riesci ad ottenere un messaggio diverso.
 
   */
-
-
-
-
-
-
-
 
 
 
