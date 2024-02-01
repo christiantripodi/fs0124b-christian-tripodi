@@ -39,25 +39,16 @@ function crazySum (x,y) {
 */
 
 
-//la diff math abs  
-
-
-
-function crazyDiff (x){
-
-  let resultuno;
-  if((x - 19 > 19)){
-    result = x - 19 * 3;
-  }else {
-    result = x - 19;
-  }
-  return resultuno
-
+function crazyDiff (n){
+if(n > 19){
+ return Math.abs(n - 19)
+}else{
+  return (n-19)
 }
 
-console.log(crazyDiff(200))
 
 
+}
 
 
 
@@ -69,21 +60,23 @@ console.log(crazyDiff(200))
 */
 
 
+function boundary(n){
 
-function bounday (x){
+  if((n > 20 && n <=100) || n == 400){
+    return true 
 
-  let ris
-  if(x>= 20 || x<=100 || x==400){
-  result =  'true'}
-else {
-  result = 'false'
-
-}
-return ris
+  }else{
+    return false
+  }
 }
 
-console.log (bounday(300))
-/*
+// 
+
+function boundary(n){
+
+  return ((n > 20 && n <=100) || n == 400)
+}
+
 
 
 /* ESERCIZIO 5
@@ -94,8 +87,21 @@ console.log (bounday(300))
 
 
 
+function epify (string){
 
-  
+  if(!string.startsWith('EPICODE')){
+    
+ return 'EPICODE' + string
+
+  }
+  return string;
+
+
+
+
+
+}
+
 
 
 
@@ -126,7 +132,30 @@ console.log (bounday(300))
  La funzione deve rendere maiuscola la prima lettera di ogni parola contenuta nella stringa.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */ 
+
+
+function upperFirst (stringa){
+
+  let parole = stringa.split(' ')
+  let risultato =[];
+  for(let i = 0; i < parole.length; i++){
+
+      let primaLettera = parole[i][0].toUpperCase();
+      let restoParola = parole[i].slice(1)
+      let parolaComp = primaLettera + restoParola;
+
+
+    risultato.push(parolaComp)
+
+    }
+ 
+    return risultato.join(' ')
+}
+
+console.log(upperFirst('Che bella la correzione'))
+
+
+
 
 /* ESERCIZIO 9
  Scrivi una funzione di nome "cutString", che riceve come parametro una stringa. La funzione deve creare una nuova stringa senza il primo e l'ultimo carattere
@@ -139,4 +168,10 @@ console.log (bounday(300))
  Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* SCRIVI QUI LA TUA RISPOSTA */ 
+
+
+
+
+
+
