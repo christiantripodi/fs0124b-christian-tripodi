@@ -5,7 +5,7 @@
 
 
 
-/*
+
 
 let stringaUno = 'stringaUno'
 let stringaDue = 'stringaDue'
@@ -15,11 +15,11 @@ function concatenare(stringaUno, stringaDue) {
 return stringaUno +  ' ' + stringaDue;
 
 
-console.log(stringaUno + StringaDue)
+console.log(concat())
 }
 
 
-*/
+
 
 
 
@@ -315,15 +315,6 @@ const movies = [
 Scrivi una funzione per creare un array con solamente i titoli dei film contenuti nell'array fornito.
 */
 
-
-const titoli = movies.map(funcion(title){
-
-
-  return 
-
-
-
-})
 
 
 
