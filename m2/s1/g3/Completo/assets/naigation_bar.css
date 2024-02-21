@@ -1,0 +1,42 @@
+body {
+    font-family: "Roboto", sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: #5A280E;
+}
+
+
+
+#navigation_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-inline: 15px;
+    background-color: #FAF7E5;
+    font-size: 12px;
+    border-radius: 45px;
+
+}
+
+
+
+.nav_butt {
+
+    background-color: #F0DF91;
+    padding: 15px;
+    border-radius: 45px;
+    margin-top:  30px;
+    margin-bottom: 30px;
+}
+
+/* #navigation_bar a:nth-of-type(3){
+    
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 150px;    
+
+} */

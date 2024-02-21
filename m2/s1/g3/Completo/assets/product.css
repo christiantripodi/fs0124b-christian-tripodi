@@ -1,0 +1,91 @@
+body {
+    font-family: "Roboto", sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.single_product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+    height: 600px ;
+    width: 100%;
+    background-color: #FAF7E5;
+    border-radius: 20%;
+    margin-inline: 10px;
+}
+
+
+.img {
+    width: 100%;
+    height: 75%;
+    background-image: url(./imgs/honey.jpg);
+    background-repeat: no-repeat;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+
+
+}
+
+
+.prod_content {
+
+        width: 70%;
+        margin-top: 10%;
+        flex-wrap: wrap;
+        align-items: center;
+        
+
+}
+
+
+.button_prod {
+    width: 300px;
+    height: 35px;
+    background-color: #F0DF91;
+    border-radius: 30px;
+    margin-top:20px;
+    margin-bottom: 25px;
+    text-align: center;
+
+}
+
+
+.descrizione {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #5A280E;
+    margin-bottom: 7px;
+}
+.sottotiolo {
+    margin-left: 25px;
+    display: inline-block;
+}
+
+.prezzo {
+    display: inline-block;
+    justify-content: stretch;
+    font-size: 28px;
+    position: relative;
+    top: -20px;
+
+
+}
+
+.sottotitolo,.prezzo, .button_prod {
+
+    color: #5A280E;
+    
+}
