@@ -1,0 +1,143 @@
+
+
+
+#cont {
+    margin: 0 auto;
+    width: 80%;
+
+  }
+
+#su {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 40px;
+    margin-bottom: 50px;
+
+    
+}
+#giu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 40px;
+    
+}
+
+h2 {
+    font-size: 2em;
+}
+p{
+    font-size: 0.8em;
+
+}
+
+.green {
+    background-color: #D2F7CE;
+    background: linear-gradient(#D2F7CE, #9bba98);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+
+    transform: rotate(12deg);
+
+    
+    
+
+}
+.yellow {
+    background-color: #F9FACD;
+    background: linear-gradient(#F9FACD, #c0c19e);
+
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+
+    transform: rotate(-8deg);
+
+
+
+    
+}
+.purple {
+    background-color: #C7C7F2;
+    background: linear-gradient(#C7C7F2, #7f7f9f);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+    transform: rotate(-12deg);
+
+    }
+    
+
+
+.yellow:hover{
+        animation-name: yellow1;
+        animation-duration: 0.2s;
+        animation-iteration-count:1;
+        animation-timing-function: linear;
+        text-align: center;
+        flex-direction: column;
+
+        color: black;
+        flex-wrap: wrap;
+
+
+
+}
+.green:hover{
+        animation-name:  green1;
+        animation-duration: 0.2s;
+        animation-iteration-count:1;
+        animation-timing-function: linear;
+        text-align: center;
+        flex-direction: column;
+
+        color: black;
+        flex-wrap: wrap;
+
+}
+.purple:hover{
+        animation-name: sposta;
+        animation-duration: 0.2s;
+        animation-iteration-count:1;
+        animation-timing-function: linear;
+        text-align: center;
+        color: black;
+        flex-direction: column;
+
+        flex-wrap: wrap;
+
+}
+
+@keyframes sposta {
+    from { transform: rotate(-12deg);}
+    to { transform: rotate(5deg);}
+}
+@keyframes yellow1 {
+    from { transform: rotate(-8deg);}
+    to { transform: rotate(4deg);}
+}
+@keyframes green1 {
+    from { transform: rotate(12deg);}
+    to { transform: rotate(-4deg);}
+}
