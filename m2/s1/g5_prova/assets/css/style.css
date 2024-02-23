@@ -63,6 +63,8 @@ nav {
     padding-left: 2em;
     padding-right: 2em;
 
+
+
 }
 
 
@@ -289,14 +291,16 @@ width: 30%;
     flex-direction: row;
     align-items:center; 
     justify-content: left;
-
     font-size: 0.8em;
     font-weight: 400;
     font-family: roboto, sans-serif;
 
 }
 
-
+.trendlineauno{
+    display: flex;
+    align-items: center;
+}
 
 .trendlineadue {
 
@@ -395,7 +399,7 @@ section {
 
 
 
-aside {
+#right {
 
     position: sticky;
     top: 0;
@@ -415,7 +419,7 @@ aside {
 
 
 
-aside>p {
+#right>p {
     margin-bottom: 2em;
     text-align: center;
   
