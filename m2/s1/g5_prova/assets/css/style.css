@@ -1,0 +1,450 @@
+/* =============== Global =============== */
+
+
+:root {
+
+    --yellow: #ffc017;
+    --new-black: #191919;
+    --green: #1a8917;
+    font-family: roboto, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+h1 {
+    font-family: spectral;
+    font-size: 7em;
+    font-weight: 400;
+
+}
+
+h2 {
+    font-family: spectral;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+
+
+/* =============== Header =============== */
+
+header {
+
+
+    position: sticky;
+    
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    width: 100%;
+    height: 5rem;
+
+    background-color:#ffc017;
+    border-bottom: 1px solid #191919;
+    font-family: Roboto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    padding-left: 2em;
+    padding-right: 2em;
+
+
+
+  
+
+}
+
+#logo {
+    width: 164px;
+    height: 30px;
+
+    background-image: url(../imgs/svg/logo.svg);
+    background-repeat: no-repeat;
+    
+    display: flex;
+    align-items:last baseline;
+
+}
+
+#menu {
+    color: #191919;
+    align-items: baseline;
+}
+
+li {
+    display: inline-block;
+    margin-right: 15px;
+    color: #191919;
+}
+
+.getstarted>a {
+    color:white;
+    background-color: #191919;
+    border-radius: 20px;
+    padding:8px 15px 8px 15px;
+}
+li>a {
+    color:#191919;
+}
+
+
+
+
+
+
+
+
+
+/* =============== MAIN =============== */
+
+
+
+main {
+    background-color: #ffc017;
+    border-bottom: solid 1px #191919;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 28px;
+    background-image: url(../imgs/m.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#testo1 {
+    margin-top: 5em;
+    margin-left: 3em;
+}
+
+#testo2 {
+    font-size: 1.5rem;
+    margin-left: 2em;
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    
+}
+
+#firstbutt>a {
+    color:white;
+    font-size: 1.3em;
+    font-family: roboto;
+    font-weight: 300;
+    background-color: #191919;
+    border-radius: 20px;
+    padding:10px 50px 10px 50px;
+
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    
+    margin-top: 3em;
+    margin-left: 3.5em;
+    margin-bottom: 3em;
+}
+
+
+
+
+
+/* =============== ARTICLE =============== */
+
+article {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 4em;
+    padding-bottom: 2em;
+    border-bottom: solid 1px #bbb2b2;
+    margin-bottom: 3em;
+}
+
+
+#trendmain {
+    
+    background-image: url(../imgs/svg/trending.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+
+    margin-top: 2em;
+    padding-left: 2em;
+    width: 100%;
+    height: 50px;
+
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 1.4;
+
+
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1em
+}
+
+
+
+
+
+
+
+
+/* ====== TREND NEWS ===== */
+
+
+#trendnews {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 2px;
+
+
+}
+
+
+
+.trendcompleto {
+display: flex;
+flex-direction: row;
+
+width: 30%;
+    
+}
+
+
+.numerotrend {
+
+    font-family: roboto;
+
+    font-size: 2.3em;
+    opacity: 0.1;
+
+    width: 15%;
+    margin-right: 0.6em;
+    margin-top: 0.7em;
+    display: flex;
+    align-items: flex-start;
+    
+
+
+    
+}
+
+
+.trendsingolo {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 1.1em;
+    margin-top: 1.6em;
+
+}
+
+/* ==== INSIDE TREND ===== */
+
+
+
+.trendlineauno>img {
+    width: 22px;
+    border-radius: 8px;
+    margin-right: 1em;
+    display: flex;
+    float: left;
+}
+
+
+
+
+.trendlineauno>p {
+
+    display: flex;
+    flex-direction: row;
+    align-items:center; 
+    justify-content: left;
+
+    font-size: 0.8em;
+    font-weight: 400;
+    font-family: roboto, sans-serif;
+
+}
+
+
+
+.trendlineadue {
+
+    font-family: roboto;
+    font-size: 1em;
+    line-height: 1.3em;
+    font-weight: 500;
+    width: 80%;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.trendlineatre {
+
+    font-size: 0.9em;
+    color: #a19a9a;
+    font-weight: 200;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trendlineatesto {
+
+    font-size: 1.2em;
+    color: #a19a9a;
+    font-weight: 200;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+/* ==== SECTION ===== */
+
+
+
+
+
+section {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    border-bottom: solid 1px #bbb2b2;
+}
+
+
+#newscontainer {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+    padding-left: 3em;
+    width: 60%;
+    gap: 30px;
+
+
+}
+
+
+.newscompleta {
+
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+
+.newssingola {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 1.1em;
+    width: 60%;
+
+}
+
+.immaginenotizia{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 150px;
+}
+
+
+
+/* ==== ASIDE ===== */
+
+
+
+
+aside {
+
+    position: sticky;
+    top: 0;
+
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 35%;
+    gap: 10px;
+   
+   position: sticky;
+    top: 0;
+
+}
+
+
+
+aside>p {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+
+.tag>ul>li>a {
+    background-color: #F2F2F2;
+    color:#191919;
+    border-radius: 20px;
+    padding:12px ;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer {
+    border-top: sold 1px #2f2d2d;
+    margin-top: 5em;
+
+}
+
+.footer>ul>li>a {
+
+    
+
+    
+    color:#a9a0a0;
+    padding:5px ;
+    display: inline-block;
+    text-align: center;
+
+
+}
