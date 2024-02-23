@@ -1,6 +1,7 @@
 /* =============== Global =============== */
 
 
+
 :root {
 
     --yellow: #ffc017;
@@ -62,11 +63,12 @@ nav {
     padding-left: 2em;
     padding-right: 2em;
 
-
-
-  
-
 }
+
+
+
+
+
 
 #logo {
     width: 164px;
@@ -321,8 +323,8 @@ width: 30%;
 
 .trendlineatesto {
 
-    font-size: 1.2em;
-    color: #a19a9a;
+    font-size: 1.5em;
+    color: #7d7878;
     font-weight: 200;
 
     display: flex;
@@ -354,7 +356,7 @@ section {
     flex-wrap: nowrap;
     
     padding-left: 3em;
-    width: 60%;
+    width: 70%;
     gap: 30px;
 
 
@@ -405,10 +407,9 @@ aside {
     align-items: center;
     flex-wrap: nowrap;
     width: 35%;
-    gap: 10px;
+    gap: 5px;
    
-   position: sticky;
-    top: 0;
+ 
 
 }
 
@@ -417,6 +418,7 @@ aside {
 aside>p {
     margin-bottom: 2em;
     text-align: center;
+  
 }
 
 
