@@ -327,8 +327,8 @@ width: 30%;
 
 .trendlineatesto {
 
-    font-size: 1.5em;
-    color: #7d7878;
+    font-size: 1.1em;
+    color: #625d5d;
     font-weight: 200;
 
     display: flex;
@@ -428,11 +428,12 @@ section {
 
 .tag>ul>li>a {
     background-color: #F2F2F2;
+    font-size: 0.8em;
     color:#191919;
     border-radius: 20px;
-    padding:12px ;
+    padding:8px ;
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -443,8 +444,6 @@ section {
 }
 
 .footer>ul>li>a {
-
-    
 
     
     color:#a9a0a0;
