@@ -20,23 +20,52 @@
             <option value="cane">Cane</option>
             <option value="gatto">Gatto</option>
             <option value="coniglio">Coniglio</option>
-            <option value="criceto">Criceto</option>
+            <option value="roditore">Roditore</option>
           </select>
         Razza
-          <select name="specie" id="species">
+          <select name="breed" id="breed">
 
             <option value="">----</option>
             <option value="golden">Golden Retriever</option>
-            <option value="boxer">Boxer</option>
-            <option value="barboncino">Barboncino</option>
-            <option value="alano">Alano</option>
+            <option value="criceto">Criceto</option>
+            <option value="persiano">Persiano</option>
+            <option value="nano">Nano</option>
           </select>
+          <hr>
+          <button type="submit">Invia</button>
 
     </form>
 
+    <ul id="lista"></ul>
+
+
+
+<script>
+
+class Pet {
+
+    constructor(_petName, _ownerName, _species, _breed){
+        this.petName = _petName;
+        this.ownerName = _ownerName;
+        this.species = _species;
+        this.breed = _breed;
+
+
+    }
+}
+
+
+padroneUguale(altroPet){
+    return this.ownerName == altroPet.ownerName
+}
 
 
 
 
+
+
+
+
+</script>
 </body>
 </html>
