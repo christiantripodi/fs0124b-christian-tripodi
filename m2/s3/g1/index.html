@@ -9,7 +9,51 @@
 
 
 
+
+    <script> 
     
-    
+
+
+
+
+    class User {
+
+    constructor(_name, _last, _age, _location){
+        this.firstName = _name;
+        this.lastName = _last;
+        this.age = _age;
+        this.location = _location;
+    }
+
+    schedaUtente(){
+        console.log(`Nome: ${this.firstName} Cognome: ${this.lastName} Età: ${this.age} Città: ${this.location}`)
+    }
+
+
+
+    eta(){
+        if(utente1.age > utente2.age){
+            return 'utente1 ha un età maggiore di utente2'
+        }else{
+            return 'utente2 ha un età maggiore di Utente1'
+        }
+    }
+
+
+
+}
+
+
+
+let utente1 = new User('Christian','Tripodi',38,'Parigi');
+let utente2 = new User('Martina','Galilei',28,'Milano');
+
+utente1.schedaUtente()
+utente2.schedaUtente()
+
+console.log(utente1.eta(utente2))
+
+
+    </script>
 </body>
 </html>
