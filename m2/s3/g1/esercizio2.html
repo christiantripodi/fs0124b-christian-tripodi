@@ -11,11 +11,11 @@
 
     <form>
       
-        Nome Animale <input type="text" label="petName">
-        Nome Padrone <input type="text" label="ownerName">
+        Nome Animale <input type="text" label="petName" required>
+        Nome Padrone <input type="text" label="ownerName" required>
 
         Tipo Animale
-        <select name="specie" id="species">
+        <select name="specie" id="species" required>
             <option value="">----</option>
             <option value="cane">Cane</option>
             <option value="gatto">Gatto</option>
@@ -23,7 +23,7 @@
             <option value="roditore">Roditore</option>
           </select>
         Razza
-          <select name="breed" id="breed">
+          <select name="breed" id="breed" required>
 
             <option value="">----</option>
             <option value="golden">Golden Retriever</option>
