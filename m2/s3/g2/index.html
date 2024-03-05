@@ -12,12 +12,13 @@
 
 
 
-<p>Dato Mostrato</p>
+<div id="datoultimo">Dato Mostrato</div>
 
 <form>
-   inserisci dato  <input type="text" id="dato" name="dato">
-   <button type="button" id="invia">invia</button>
-   <button type="button" id="cancella">cancella</button>
+   inserisci dato 
+   <input type="text" id="testo" class="form-control">
+   <button type="button" id="inviaBtn">invia</button>
+   <button type="button" id="cancellaBtn">cancella</button>
 </form>
 
 
@@ -27,10 +28,29 @@
 
 <script>
 
+function mostraValore(){
 
-let invia = document.getElementById('invia')
+
+let datoultimo = document.querySelector('#datoultimo')
+
+let valoresalvato = localStorage.getItem('valoresalvato')
+
+datoultimo.innerHTML = valoresalvato;
+
+}
 
 
+let inviaBtn = document.querySelector('#inviaBtn')
+
+inviaBtn.addEventListener('click',function(e){
+
+    e.preventDefault()
+
+    let testo = document.querySelector('#testo').value;
+
+    localStorage.setItem('dato', testo)
+
+})
 
 
 
