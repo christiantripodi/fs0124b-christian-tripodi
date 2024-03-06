@@ -22,7 +22,7 @@
             <div class="card" style="width: 100%;">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h6 class="card-title">...</h6>
+                  <h6 class="card-title"></h6>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   <a href="#" class="btn btn-primary btn-sm">Scarta</a>
 
@@ -48,23 +48,22 @@
 
 fetch('https://striveschool-api.herokuapp.com/books')
         .then(response => response.json())
-        .then(dati => {
+        .then(libri => {
 
-            console.log(dati);
             
-            for(let user of dati){
+            for(let user of libri){
 
-                let div = document.createElement('div')
+                let titolo = document.createElement('titolo')
 
-                div.innerText = user.title
-                
-                document.querySelector('h6').append(div)
+                titolo.innerText = user.title
+
+                document.querySelector('h6').append(titolo)
 
             }
 
         })
 
-
+ 
 
 
 
