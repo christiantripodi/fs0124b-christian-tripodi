@@ -4,20 +4,20 @@ const salva =  document.querySelector('#crea')
 salva.addEventListener('click', (e) => {
     e.preventDefault();
 
-    console.log("invio prodotoo");
+    console.log("invio prodotto");
 
-    let nome = document.querySelector('#nome').value
+    let name = document.querySelector('#nome').value
     let brand = document.querySelector('#brand').value
-    let urlImmagine = document.querySelector('#urlImmagine').value
-    let descrizione = document.querySelector('#descrizione').value
-    let prezzo = document.querySelector('#prezzo').value
+    let imageUrl = document.querySelector('#urlImmagine').value
+    let description = document.querySelector('#descrizione').value
+    let price = document.querySelector('#prezzo').value
 
     let cell = {
-        nome,
+        name,
         brand,
-        prezzo,
-        urlImmagine,
-        descrizione
+        imageUrl,
+        description,
+        price
 
        
     }
@@ -29,7 +29,7 @@ headers: {
 "Content-type": "application/json",
 
 Authorization:
-"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWVhZmM0YjJkN2IxMTAwMTkwZTcyNTIiLCJpYXQiOjE3MDk4OTg4MjcsImV4cCI6MTcxMTEwODQyN30.QgeuVo1YY9X1lKtHjYsKPCbeXuSZoKMtvtZMkEvrHwo",
+"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWVhZmM0YjJkN2IxMTAwMTkwZTcyNTIiLCJpYXQiOjE3MDk4OTg4MjcsImV4cCI6MTcxMTEwODQyN30.QgeuVo1YY9X1lKtHjYsKPCbeXuSZoKMtvtZMkEvrHwo",
 },
 body: JSON.stringify(cell),
 })
