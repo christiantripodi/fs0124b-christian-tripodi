@@ -14,20 +14,18 @@ headers: {
 .then(phone => {
     let name = document.querySelector('#name')
     let brand = document.querySelector('#brand')
+    let description = document.querySelector('#description')
     let price = document.querySelector('#price')
     let imageUrl = document.querySelector('#imageUrl')
-    let description = document.querySelector('#description')
 
     name.value = phone.name
     brand.value = phone.brand
+    description.value = phone.description
     price.value = phone.price
     imageUrl = phone.imageUrl
-    description.value = phone.description
 
+   
 })
-
-
-
 
 
 
