@@ -42,10 +42,6 @@ saveBtn.addEventListener('click', () => {
 
 
 
-
-
-
-
     let phone = {
         name,
         brand,

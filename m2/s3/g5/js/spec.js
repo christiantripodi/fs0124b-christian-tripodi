@@ -24,8 +24,5 @@ headers: {
     price.value = phone.price
     imageUrl = phone.imageUrl
 
-   
+
 })
-
-
-
