@@ -56,7 +56,7 @@ user.chiamata(20)
 console.log(user)
 
 console.log(user.chiama404())
-console.log(uder.getNumeroChimate())
+console.log(user.getNumeroChimate())
 
 user.azzeraChiamate()
 
