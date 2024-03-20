@@ -1,0 +1,11 @@
+<div class="container">
+<app-navbar></app-navbar>
+</div>
+
+
+{{ articoloArr | json}}
+<div class="row">
+  <div *ngFor="let articolo of articoliArr" class="col-4">
+  <h2>{{articolo.title}}</h2>
+  </div>
+</div>
